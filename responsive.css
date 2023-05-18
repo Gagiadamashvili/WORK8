@@ -4,9 +4,21 @@
         margin: auto;
         margin-left: 90px;
         grid-template-columns: repeat(auto-fill, 900px);
+        width: 343px;
+        height: 100vh;
     }
 
     .item2{
-        width: 100%;
+        width: 343px;
+        border-radius: 20px 20px 0px 0px ;
+
     }
+
+    .name{
+        width: 295px;
+    }
+    .description{
+        width: 295px;
+    }
+
 }
