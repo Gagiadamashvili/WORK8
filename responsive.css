@@ -1,9 +1,12 @@
-@media screen and (max-width:343px){
+@media screen and (max-width:350px){
     .container{
         display: grid;
         margin: auto;
         justify-content: space-between;
-        grid-template-columns: repeat(auto-fill, 200px);
+        grid-template-columns: repeat(auto-fill, 350px);
         
+    }
+    .item2{
+        width: 100%;
     }
 }
