@@ -1,17 +1,16 @@
 @media screen and (max-width:900px){
     .container{
         display: grid;
-        margin: auto;
-        margin-left: 90px;
         grid-template-columns: repeat(auto-fill, 900px);
         width: 343px;
         height: 100vh;
+        border-radius: 10px;
+        background-color: white;
     }
 
     .item2{
         width: 343px;
-        border-radius: 20px 20px 0px 0px ;
-
+        border-radius: 10px 10px 0px 0px ;
     }
 
     .name{
@@ -19,6 +18,12 @@
     }
     .description{
         width: 295px;
+    }
+ 
+    .box{
+        width: 300px;
+        background-color: white;
+       
     }
 
 }
