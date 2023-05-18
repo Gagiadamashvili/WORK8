@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #F2EAE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box{
+    margin-left: 30px;
+    margin-top: 32px;
+}
+
+.perfum{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+
+}
+
+.name{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #1C232B;
+    margin-top: 30px;
+}
+
+.description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+    margin-top: 30px;
+}
+
+.price{
+    margin-top: 30px;
+    display: flex;
+}
+
+.usd{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+}
+
+.usd2{
+    margin-left: 20px;
+    color: #6C7289;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration: line-through;
+}
+
+.button{
+    margin-top: 30px;
+    display: flex;
+    background-color: #3D8168;
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+.icon{
+    margin-top: 13px;
+    margin-left: 60px;
+}
+
+.button2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    width: 236px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
